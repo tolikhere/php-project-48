@@ -1,0 +1,23 @@
+{
+    "name": "hexlet/code",
+    "description": "The programm that generate a difference between two files",
+    "type": "project",
+    "license": "MIT",
+    "bin": [
+        "bin/gendiff"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anatoliy Pavlenko",
+            "email": "fenixdurangoadrenalin@gmail.com"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+}
